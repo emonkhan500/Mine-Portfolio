@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+.font{
+  font-family: "Open Sans", sans-serif;
+
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.banner{
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+ 
+  
+}
