@@ -24,34 +24,34 @@ const Footer = () => {
         </div>
 
         {/* Social Media Icons */}
-        <div class="flex justify-center mb-8 space-x-4">
+        <div class="flex justify-center   pt-8 space-x-4 animate__animated animate__bounce">
    {/* Icon 1  */}
-  <div style={iconStyle} class="bg-gradient-to-b from-[#343236] to-[#38343F] rounded-lg p-2 shadow-[0px_2px_2px_#55E5A4_inset,0px_15px_25px_rgba(0,0,0,0.5)] border-t border-[#55E5A4]">
+  <a href="https://github.com/emonkhan500" style={iconStyle} class="bg-gradient-to-b from-[#343236] to-[#38343F] rounded-lg p-2 shadow-[0px_2px_2px_#55E5A4_inset,0px_15px_25px_rgba(0,0,0,0.5)] border-t border-[#55E5A4]">
    
        <FaGithub className="w-6 h-6 text-white"></FaGithub>
     
-  </div>
+  </a>
   
  {/* Icon 2  */}
-  <div style={iconStyle} class="bg-gradient-to-b from-[#343236] to-[#38343F] rounded-lg p-2 shadow-[0px_2px_2px_#55E5A4_inset,0px_15px_25px_rgba(0,0,0,0.5)] border-t border-[#55E5A4]">
+  <a href="www.linkedin.com/in/md-emon-khan" style={iconStyle} class="bg-gradient-to-b from-[#343236] to-[#38343F] rounded-lg p-2 shadow-[0px_2px_2px_#55E5A4_inset,0px_15px_25px_rgba(0,0,0,0.5)] border-t border-[#55E5A4]">
    
      <FaLinkedin className="w-6 h-6 text-white"></FaLinkedin>
     
-  </div>
+  </a>
   
   {/* Icon 3  */}
-  <div style={iconStyle} class="bg-gradient-to-b from-[#343236] to-[#38343F] rounded-lg p-2 shadow-[0px_2px_2px_#55E5A4_inset,0px_15px_25px_rgba(0,0,0,0.5)] border-t border-[#55E5A4]">
+  <a href="https://www.facebook.com/profile.php?id=100025282659899&mibextid=ZbWKwL" style={iconStyle} class="bg-gradient-to-b from-[#343236] to-[#38343F] rounded-lg p-2 shadow-[0px_2px_2px_#55E5A4_inset,0px_15px_25px_rgba(0,0,0,0.5)] border-t border-[#55E5A4]">
     
     <FaFacebookF className="w-6 h-6 text-white"/>
    
-  </div>
+  </a>
   
    {/* Icon 4 */}
-  <div style={iconStyle} class="bg-gradient-to-b from-[#343236] to-[#38343F] rounded-lg p-2 shadow-[0px_2px_2px_#55E5A4_inset,0px_15px_25px_rgba(0,0,0,0.5)] border-t border-[#55E5A4]">
+  <a href="https://www.instagram.com/em0_n/" style={iconStyle} class="bg-gradient-to-b from-[#343236] to-[#38343F] rounded-lg p-2 shadow-[0px_2px_2px_#55E5A4_inset,0px_15px_25px_rgba(0,0,0,0.5)] border-t border-[#55E5A4]">
     
   <FaInstagram  className="w-6 h-6 text-white"/>
    
-  </div>
+  </a>
 </div>
 <style>
         {`
