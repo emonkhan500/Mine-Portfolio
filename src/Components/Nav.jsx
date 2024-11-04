@@ -68,7 +68,7 @@ const Nav = () => {
   <div className="navbar-end md:ml-5">
   <div data-aos="fade-down"
         data-aos-duration="700"> 
-                    <a className="flex" href="https://drive.google.com/file/d/1D3Y5SpZHxhyrjmsbrb9eiW3hPBAkM3t0/view?usp=sharing" download>
+                    <a className="flex" href="https://drive.google.com/file/d/136HW5uExHU3zedlxHeLXoNe3CbzPEdFG/view?usp=sharing" download>
                         <button type='button' className='bg-[#55E5A4] shadow-2xl px-2 py-2 rounded-sm text-black md:text-xl font-bold hover:scale-105 duration-100 hover:bg-green-400 flex justify-center items-center gap-2'>
                             Resume
                             <FaDownload />

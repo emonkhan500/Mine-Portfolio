@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaFacebookF, FaInstagram } from "react-icons/fa";
 import 'animate.css';
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Link } from "react-scroll";
+
 AOS.init();
 const About = () => {
   const iconStyle = {
@@ -11,7 +11,7 @@ const About = () => {
   };
 
   return (
-    <div  className="font border-b-2 pt-16 border-[#55E5A4] bg-[#151C25]">
+    <div  className="font  pt-16  bg-[#151C25]">
       <div  class=" lg:container mx-auto pt-0 md:pt-8 lg:pt-10 px-2 md:px-2 lg:px-20 text-white py-10 flex gap-10 md:gap-1 lg:gap-12 flex-col-reverse md:flex-row lg:flex-row items-center justify-center">
         {/* Profile Image  */}
         <div data-aos="fade-down"
@@ -29,7 +29,7 @@ const About = () => {
           <h2 class="text-4xl font-bold mb-2">About Me</h2>
           <h4 class="text-xl text-teal-400 mb-4">Who Am I?</h4>
           <p class="text-base mb-6">
-          I am a front-end developer from Bangladesh. Strong passion, love and self-improvement for technology and coding so far Fontend has learned - ReactJS, JavaScript, Tailwind CSS, Bootstrap, HTML, CSS also mobile responsive, all device responsive and various packages, frameworks, libraries, Animation. Also learned and learning for backend - MongoDB, NodeJS, Express.js, JWT, and Firebase. Besides practice and work, I am constantly learning new things and love learning new technologies. I like taking on new challenges. My next target is to become a very good full-stack developer.
+          I am a MERN-Stack developer from Bangladesh. Strong passion, love and self-improvement for technology and coding so far In Frontend I have learned - ReactJS, JavaScript, Tailwind CSS, Bootstrap, HTML5,Redux also responsive for all devices and various packages, frameworks, libraries, Animation. Also learned and learning for backend - MongoDB, NodeJS, Express.js, JWT, and Firebase. Besides practice and work, I am constantly learning new things and love explore new technologies. I like to take new challenges. My next target is to become a very good full-stack developer.
           </p>
 
           <div class="flex justify-center md:justify-start  pt-8 space-x-4 animate__animated animate__bounce">
@@ -72,6 +72,7 @@ const About = () => {
           
         </div>
       </div>
+      <hr className="h-1 mx-2 md:mx-10 lg:mx-32 bg-[#55E5A4] border-0"/>
     </div>
   );
 };

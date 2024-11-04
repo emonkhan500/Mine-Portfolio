@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import Nav from './Components/Nav';
 import Banner from './Components/Banner';
@@ -11,6 +11,7 @@ import Skill from './Components/Skill';
 
 
 const Home = () => {
+    
     return (
         <div className='home'>
             <Nav></Nav>

@@ -7,7 +7,7 @@ AOS.init();
 const Banner = () => {
   
   return (
-    <div className="border-b-2 border-[#55E5A4] bg-[#151C25]">
+    <div className=" bg-[#151C25]">
       <div className="container mx-auto pt-10 md:pt-32 lg:pt-44 md:px- lg:px-24 text-white py-10 pb-20 flex gap-14 md:gap-3  lg:gap-20 flex-col-reverse md:flex-row lg:flex-row items-center justify-center">
         {/* Left Section: Text Content */}
         <div data-aos="fade-left"
@@ -33,11 +33,7 @@ const Banner = () => {
             />
           </h1>
           <p className="mb-6 text-lg text-gray-400">
-            I specialize in crafting immersive user experiences using the latest
-            frontend technologies and frameworks to bring your vision to life.
-            Additionally, my expertise extends to geoinformatics, where I excel
-            in harnessing the power of spatial data to uncover actionable
-            insights.
+          Strongly passionate for building scalable and dynamic web applications using technologies like HTML, CSS, JavaScript,React,NodeJS, Express js. Always active to learn and explore new and advanced technology.My Goal to be a very good Full-Stack developer and I'm working on it !!
           </p>
 
           <div className="grid grid-cols-3 gap-2 lg:w-4/6">
@@ -73,10 +69,10 @@ const Banner = () => {
                     PROJECTS
                   </h2>
                 </div>
-
+      
                 {/* Back Side */}
                 <div className="absolute flex justify-center items-center w-full h-full bg-gradient-to-r from-green-400 to-green-500 shadow-lg [transform:rotateY(180deg)] [backface-visibility:hidden] text-center [text-shadow:2px_2px_4px_rgba(0,0,0,0.9)] font-medium text-white rounded">
-                  <h1>12 Projects Completed</h1>
+                  <h1>20 Projects Completed</h1>
                 </div>
               </div>
             </div>
@@ -122,6 +118,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
+      <hr className="h-1 mx-2 md:mx-10 lg:mx-32 bg-[#55E5A4] border-0"/>
     </div>
   );
 };

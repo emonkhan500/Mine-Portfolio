@@ -16,7 +16,7 @@ const Contact = () => {
                <div className="px-9 py-9">
                <h1 className='text-3xl font-bold text-[#55E5A4]'>Let's Talk !!</h1>
                 
-                <h1 className="mt-5 text-gray-200">Currently exploring new opportunities, I welcome your messages. Whether you have questions or just want to say hello, rest assured, I’ll prioritize responding promptly!</h1>
+                <h1 className="mt-5 text-gray-200">I'm open to exploring new opportunities that align with my skills and interests. Please feel free to reach out with any queries !</h1>
 
                 <div className="mt-7 md:pl-4 text-gray-200 space-y-3 md:text-lg">
                     <h1 data-aos="fade-down"
