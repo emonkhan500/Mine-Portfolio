@@ -41,7 +41,7 @@ const About = () => {
   </a>
   
  {/* Icon 2  */}
-  <a href="www.linkedin.com/in/md-emon-khan" style={iconStyle} class="bg-gradient-to-b from-[#343236] to-[#38343F] rounded-lg p-2 shadow-[0px_2px_2px_#55E5A4_inset,0px_15px_25px_rgba(0,0,0,0.5)] border-t border-[#55E5A4]">
+  <a href="https://www.linkedin.com/in/md-emon-khan" style={iconStyle} class="bg-gradient-to-b from-[#343236] to-[#38343F] rounded-lg p-2 shadow-[0px_2px_2px_#55E5A4_inset,0px_15px_25px_rgba(0,0,0,0.5)] border-t border-[#55E5A4]">
    
      <FaLinkedin className="w-6 h-6 text-white"></FaLinkedin>
     
